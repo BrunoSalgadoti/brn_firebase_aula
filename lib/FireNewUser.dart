@@ -8,7 +8,7 @@ Future<dynamic> novoUsuario() async{
   FirebaseAuth auth = FirebaseAuth.instance;
 
   String email = "teste_upload@gmail.com";
-  String senha = "852456";
+  String senha = "123456";
 
   auth.createUserWithEmailAndPassword(
       email: email,
